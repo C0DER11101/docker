@@ -1,6 +1,5 @@
 # <ins>The very basics of docker(The absolute basics: not getting into layers, digests, etc..)</ins>
 
-
 # `docker image pull`
 
 * Download an image from a registry.
