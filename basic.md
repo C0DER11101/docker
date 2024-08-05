@@ -1,6 +1,6 @@
-# The very basics of docker(The absolute basics: not getting into layers, digests, etc..)
+# <ins>The very basics of docker(The absolute basics: not getting into layers, digests, etc..)</ins>
 
-## `docker image pull`
+# `docker image pull`
 
 * Download an image from a registry.
 * Usage: `docker image pull [OPTIONS] NAME[:TAG|@DIGEST]`
@@ -23,7 +23,7 @@ Status: Downloaded newer image for ubuntu:latest
 docker.io/library/ubuntu:latest
 ```
 
-## `docker container run`
+# `docker container run`
 
 * Create and run a new container from an image
 * Usage: `docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]`
@@ -53,7 +53,7 @@ CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS         PORTS     
 
 <img src="https://github.com/C0DER11101/docker/blob/d0cker/container1.png" width="50%" height="50%">
 
-## `docker container exec`
+# `docker container exec`
 
 * Execute a command in a running container.
 * Usage: `docker container exec [OPTIONS] CONTAINER COMMAND [ARG...]`
@@ -73,7 +73,7 @@ $ docker exec -i -t nixZen bash
 
 The options `-i` and `-t` can also be written as `-it`.
 
-## `docker container stop`
+# `docker container stop`
 
 * Stop one or more running containers.
 * Usage: `docker container stop [OPTIONS] CONTAINER [CONTAINER...]`
@@ -96,7 +96,7 @@ CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS                  
 
 <img src="https://github.com/C0DER11101/docker/blob/d0cker/containerExited.png" width="50%" height="50%">
 
-## `docker container start`
+# `docker container start`
 
 * Start one or more stopped containers.
 * Usage: `docker container start [OPTIONS] CONTAINER [CONTAINER]...`
@@ -119,7 +119,7 @@ CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS          PORTS   
 
 <img src="https://github.com/C0DER11101/docker/blob/d0cker/containerStarted.png" width="50%" height="50%">
 
-## `docker container rm`
+# `docker container rm`
 
 * Remove one or more containers.
 * Usage: `docker container rm [OPTIONS] CONTAINER [CONTAINER...]`
@@ -135,7 +135,7 @@ CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS          PORTS   
 $ docker container rm nixZen
 ```
 
-## `docker image rm`
+# `docker image rm`
 
 * Remove one or more images.
 * Usage: `docker image rm [OPTIONS] IMAGE [IMAGE...]`
@@ -170,7 +170,7 @@ Deleted: sha256:35a88802559dd2077e584394471ddaa1a2c5bfd16893b829ea57619301eb3908
 Deleted: sha256:a30a5965a4f7d9d5ff76a46eb8939f58e95be844de1ac4a4b452d5d31158fdea
 ```
 
-## `docker image ls`
+# `docker image ls`
 
 * List images
 * Usage: `docker image ls [OPTIONS] [REPOSITORY[:TAG]]`
