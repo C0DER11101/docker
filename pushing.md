@@ -41,7 +41,7 @@ I created a repository:
 
 Now that we have created a repo in our docker hub. We can move to use the aforementioned commands.
 
-## First: Create an image from the container's changes
+## First: Create a new image from the container's changes
 
 * Move to [Docker Desktop](https://www.docker.com/products/docker-desktop/) and copy the container ID of the desired container.
 
