@@ -62,6 +62,7 @@ $ docker image tag testub:v0 zen11101/ubtrix:v0
 ```
 
 We are creating a new tag `zen11101/ubtrix:v0` for the newly created image `testub:v0`.
+It will refer to this new image.
 
 `zen11101` is the username, `ubtrix` is the repository name.
 
