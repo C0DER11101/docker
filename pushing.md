@@ -69,7 +69,7 @@ It will refer to this new image.
 ## Push
 
 ```bash
-$ docker image push zen11101/ubtrix
+$ docker image push zen11101/ubtrix:v0
 ```
 
 Now, that the image has been pushed into docker hub, I or anyone can pull it and create a container from it and that container will
